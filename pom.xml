@@ -30,6 +30,7 @@
         <module>Spring-cloud-config</module>
         <module>spring-eureka</module>
         <module>spring-gateway</module>
+        <module>rabbit-mq-sender</module>
     </modules>
 
     <dependencies>

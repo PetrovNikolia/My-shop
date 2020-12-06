@@ -7,7 +7,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-cloud-config" />
-        <module name="rabbit-mq-sender" />
         <module name="shop-ui" />
         <module name="shop-common" />
         <module name="spring-eureka" />
@@ -18,6 +17,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="rabbit-mq-sender" target="11" />
       <module name="shop-pucture-service" target="11" />
       <module name="Spring-cloud-configg" target="11" />
     </bytecodeTargetLevel>

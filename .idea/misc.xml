@@ -10,6 +10,7 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/Spring-cloud-config/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbit-mq-sender/pom.xml" />
         <option value="$PROJECT_DIR$/shop-pucture-service/pom.xml" />
       </set>
     </option>

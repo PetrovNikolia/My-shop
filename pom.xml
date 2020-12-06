@@ -12,7 +12,7 @@
     </parent>
 
     <properties>
-        <java.version>11</java.version>
+        <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
@@ -30,7 +30,7 @@
         <module>Spring-cloud-config</module>
         <module>spring-eureka</module>
         <module>spring-gateway</module>
-        <module>rabbit-mq-sender</module>
+        <module>rabbit</module>
     </modules>
 
     <dependencies>

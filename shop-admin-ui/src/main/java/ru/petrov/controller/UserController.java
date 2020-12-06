@@ -8,10 +8,10 @@ import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
-import ru.geekbrains.controller.repr.UserRepr;
-import ru.geekbrains.exceptions.NotFoundException;
-import ru.geekbrains.persist.repo.RoleRepository;
-import ru.geekbrains.service.UserService;
+import ru.petrov.controller.rep.UserRepr;
+import ru.petrov.exceptions.NotFoundException;
+import ru.petrov.persist.repo.RoleRepository;
+import ru.petrov.service.UserService;
 
 import javax.validation.Valid;
 

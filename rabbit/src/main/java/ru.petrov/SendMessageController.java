@@ -1,11 +1,10 @@
 package ru.petrov;
 
 import org.springframework.amqp.core.AmqpTemplate;
-import org.springframework.amqp.core.DirectExchange;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
-import ru.geekbrains.repr.TextMessage;
+import ru.petrov.repr.TextMessage;
 
 @RestController
 public class SendMessageController {

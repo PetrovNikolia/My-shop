@@ -28,11 +28,13 @@ public class ProductServiceImpl implements ProductService, Serializable {
 
     private final PictureService pictureService;
 
+
     @Autowired
     public ProductServiceImpl(ProductRepository productRepository, PictureService pictureService) {
         this.productRepository = productRepository;
         this.pictureService = pictureService;
     }
+
 
     @Override
     @Transactional

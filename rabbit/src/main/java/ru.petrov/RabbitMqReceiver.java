@@ -4,7 +4,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.amqp.rabbit.annotation.RabbitHandler;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
-import ru.geekbrains.repr.TextMessage;
+import ru.petrov.repr.TextMessage;
 
 @RabbitListener(queues = "#{'${user.name}' + '.queue'}")
 public class RabbitMqReceiver {

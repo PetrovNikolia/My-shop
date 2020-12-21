@@ -31,6 +31,7 @@
         <module>spring-eureka</module>
         <module>spring-gateway</module>
         <module>rabbit</module>
+        <module>shop-ui-tests</module>
     </modules>
 
     <dependencies>

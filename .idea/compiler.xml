@@ -6,8 +6,36 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="My-shop" />
+        <module name="spring-cloud-config" />
+        <module name="shop-ui" />
+        <module name="shop-common" />
+        <module name="spring-eureka" />
+        <module name="rabbit" />
+        <module name="shop-admin-ui" />
+        <module name="shop-database" />
+        <module name="shop-picture-service" />
+        <module name="spring-gateway" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="rabbit-mq-sender" target="11" />
+      <module name="shop-pucture-service" target="11" />
+      <module name="Spring-cloud-configg" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Spring-cloud-configg" options="-parameters" />
+      <module name="rabbit" options="-parameters" />
+      <module name="rabbit-mq-sender" options="-parameters" />
+      <module name="shop-admin-ui" options="-parameters" />
+      <module name="shop-database" options="-parameters" />
+      <module name="shop-picture-service" options="-parameters" />
+      <module name="shop-pucture-service" options="-parameters" />
+      <module name="shop-ui" options="-parameters" />
+      <module name="spring-cloud-config" options="-parameters" />
+      <module name="spring-eureka" options="-parameters" />
+      <module name="spring-gateway" options="-parameters" />
+    </option>
   </component>
 </project>

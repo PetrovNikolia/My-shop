@@ -6,13 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-cloud-config" />
         <module name="shop-ui" />
+      </profile>
+      <profile name="Annotation profile for My-shop" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-cloud-config" />
+        <module name="shop-database" />
         <module name="shop-common" />
         <module name="spring-eureka" />
         <module name="rabbit" />
         <module name="shop-admin-ui" />
-        <module name="shop-database" />
+        <module name="shop-ui-tests" />
         <module name="shop-picture-service" />
         <module name="spring-gateway" />
       </profile>
